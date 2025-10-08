@@ -16,8 +16,8 @@ document.getElementById('fence-calculator').addEventListener('submit', function(
 });
 
 function calculatePicketsCount(length, height) {
-    const picketWidth = 0,118; // Ширина одного штакетника в метрах
-    const gap = 0,03; // Зазор между штакетниками в метрах
+    const picketWidth = 0.118; // Ширина одного штакетника в метрах
+    const gap = 0.03; // Зазор между штакетниками в метрах
     
     return Math.ceil(length / (picketWidth + gap));
 }
